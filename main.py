@@ -15,3 +15,20 @@ for i in email:
 else:
     arroba=False
 print(arroba)
+
+#prueba eval
+
+number = 88
+
+square_number = eval('number * number')
+
+print(square_number)
+
+print('Básicamente evalua si la oración es valida en python')
+print('Creo')
+
+#prueba exec
+
+program = 'a = 555\nb=9595\nprint("Sum =", a+b*3)'
+exec(program)
+print('Ejecuta metodos creados de manera dinamica')
