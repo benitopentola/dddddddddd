@@ -61,3 +61,32 @@ print(float_number)
 
 # Output: 25.0
 
+print('PRUEBAS FORMAT')
+
+txt = "For only {price:.2f} dollars!"
+suma = 1 + 2
+print(txt.format(price = suma + 49))
+
+#f representa los 0
+#format básicamente lo pasa a texto
+#Util para meter datos en medio de oraciones?
+
+
+print('pruebas getattr')
+
+class Student:
+  marks = 88
+  name = 'Sheeran'
+
+person = Student()
+
+name = getattr(person, 'name')
+
+print(name)
+
+marks = getattr(person, 'marks')
+
+print(marks)
+
+#imprime el valor de una clase, al no encontrarlo da el por defecto
+
